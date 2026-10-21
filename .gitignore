@@ -1,0 +1,60 @@
+# ============================================
+# ENVIRONMENT / SECRETS
+# ============================================
+.env
+.env.*
+!.env.example
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+backend/blockchain/.env
+backend/blockchain/.env.*
+!backend/blockchain/.env.example
+
+# ============================================
+# DEPENDENCIES
+# ============================================
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+backend/blockchain/node_modules/
+
+# ============================================
+# BUILD
+# ============================================
+dist/
+build/
+coverage/
+
+backend/blockchain/artifacts/
+backend/blockchain/cache/
+
+# ============================================
+# USER UPLOADS
+# ============================================
+backend/uploads/
+
+# ============================================
+# LOGS
+# ============================================
+*.log
+logs/
+
+# ============================================
+# MACOS
+# ============================================
+.DS_Store
+__MACOSX/
+
+# ============================================
+# ARCHIVES
+# ============================================
+*.zip
+*.rar
+*.7z
